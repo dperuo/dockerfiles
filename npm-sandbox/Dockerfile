@@ -2,7 +2,7 @@ FROM node:lts-alpine AS build
 
 LABEL maintainer "Derek Peruo <derek@derekperuo.net>"
 
-ARG USER=derek
+ARG USER=npmsb
 ARG USERID=8642
 
 RUN apk add --no-cache \
