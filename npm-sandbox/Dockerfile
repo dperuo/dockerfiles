@@ -1,6 +1,7 @@
 FROM node:lts-alpine AS build
 
 LABEL maintainer "Derek Peruo <derek@derekperuo.net>"
+LABEL version 19.01
 
 ARG HOME=/home/npmsb
 ARG USER=npmsb
