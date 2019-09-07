@@ -1,4 +1,4 @@
-FROM node:12.4-alpine AS builder
+FROM node:lts-alpine AS builder
 
 LABEL maintainer "Derek Peruo <derek@derekperuo.net>"
 
