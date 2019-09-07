@@ -1,6 +1,7 @@
 FROM alpine:3.9 AS build
 
 LABEL maintainer "Derek Peruo <derek@derekperuo.net>"
+LABEL version 19.01
 
 ARG USER=nmap
 ARG USERID=8642
