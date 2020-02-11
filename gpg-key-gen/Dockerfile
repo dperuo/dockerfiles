@@ -5,6 +5,7 @@ LABEL version 20.01
 
 ARG USER=gpgkeygen
 ARG USERID=8642
+ARG WORKDIR=/home/export
 
 RUN apk add --no-cache \
       gnupg=2.2.19-r0 \
@@ -12,6 +13,8 @@ RUN apk add --no-cache \
     && adduser -D $USER -u $USERID
 
 USER $USER
+
+WORKDIR $WORKDIR
 
 ENTRYPOINT ["/bin/ash"]
 
