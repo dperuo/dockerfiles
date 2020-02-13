@@ -1,11 +1,10 @@
-# Welcome to Derek's Dockerfiles 👋
 [![Documentation](https://img.shields.io/badge/documentation-yes-blue.svg?style=for-the-badge)](https://hub.docker.com/u/dperuo)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://github.com/dperuo/dockerfiles/blob/master/LICENSE)
 ![](https://img.shields.io/github/last-commit/dperuo/dockerfiles?style=for-the-badge)
 
-> Use these dockerfiles to build my custom docker images.
+# Welcome to Derek's Dockerfiles 👋
 
-### 🏠 [Homepage](https://github.com/dperuo/dockerfiles)
+> Use these dockerfiles to build my custom docker images.
 
 ## Install
 
@@ -17,7 +16,7 @@ make install
 
 ## Usage
 
-See details in [Docker Hub](https://hub.docker.com/u/dperuo). 
+See details for each image in [Docker Hub](https://hub.docker.com/u/dperuo). 
 
 ## Author
 
