@@ -1,8 +1,9 @@
-# Welcome to npm-sandbox 👋
 ![Version](https://img.shields.io/badge/version-20.01-blue.svg?style=for-the-badge)
 [![Documentation](https://img.shields.io/badge/documentation-yes-orange.svg?style=for-the-badge)](https://hub.docker.com/repository/docker/dperuo/npm-sandbox)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://github.com/dperuo/dockerfiles/blob/master/LICENSE)
 ![](https://img.shields.io/github/last-commit/dperuo/dockerfiles?style=for-the-badge)
+
+# Welcome to npm-sandbox 👋
 
 Use `dperuo/npm-sandbox` to test npm packages without damaging your local machine.
 
