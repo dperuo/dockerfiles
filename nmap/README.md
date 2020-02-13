@@ -7,7 +7,7 @@
 
 Use `dperuo/nmap` to run the `nmap` tool without polluting your local machine.
 
-### 🏠 [Homepage](https://hub.docker.com/repository/docker/dperuo/nmap)
+### 🏠 [Homepage](https://hub.docker.com/r/dperuo/nmap)
 
 ## Install
 
