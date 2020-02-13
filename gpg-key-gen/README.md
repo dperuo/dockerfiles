@@ -9,7 +9,7 @@ Use `dperuo/gpg-key-gen` to generate new gpg keys without touching your local ma
 
 The image launches a temporary container with an interactive command shell so you can generate your keys.
 
-### 🏠 [Homepage](https://hub.docker.com/repository/docker/dperuo/gpg-key-gen)
+### 🏠 [Homepage](https://hub.docker.com/r/dperuo/gpg-key-gen)
 
 ## Install
 
