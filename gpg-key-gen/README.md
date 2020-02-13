@@ -30,6 +30,10 @@ Or without a mounted volume:
 docker run -it --rm dperuo/gpg-key-gen
 ```
 
+## Screenshot
+
+![](https://p66.f3.n0.cdn.getcloudapp.com/items/E0uqW5pW/screenshot-gpg-key-gen.png)
+
 ## Author
 
 👤 **Derek Peruo**
