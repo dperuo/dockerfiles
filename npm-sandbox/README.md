@@ -7,7 +7,7 @@
 
 Use `dperuo/npm-sandbox` to test npm packages without damaging your local machine.
 
-### 🏠 [Homepage](https://hub.docker.com/repository/docker/dperuo/npm-sandbox)
+### 🏠 [Homepage](https://hub.docker.com/r/dperuo/npm-sandbox)
 
 ## Install
 
