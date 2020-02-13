@@ -10,8 +10,7 @@ Use these dockerfiles to build my custom docker images.
 
 ```sh
 git clone https://github.com/dperuo/dockerfiles.git .
-cd ./sub/directory
-make install
+./install.sh
 ```
 
 ## Usage
