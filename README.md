@@ -4,7 +4,7 @@
 
 # Welcome to Derek's Dockerfiles 👋
 
-> Use these dockerfiles to build my custom docker images.
+Use these dockerfiles to build my custom docker images.
 
 ## Install
 
