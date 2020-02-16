@@ -20,6 +20,8 @@ docker pull dperuo/npm-sandbox
 You must git clone locally before launching the Docker image.
 
 ```sh
+git clone {REPO URL} {LOCAL DIR}
+cd {LOCAL DIR}
 docker run -it -v ${PWD}:/home/npmsb -w /home/npmsb dperuo/npm-sandbox
 ```
 
