@@ -1,14 +1,14 @@
-FROM alpine:3.9 AS build
+FROM alpine:latest AS build
 
 LABEL maintainer "Derek Peruo <derek@derekperuo.net>"
-LABEL version 20.01
+LABEL version 20.02
 
 ARG USER=gpgkeygen
 ARG USERID=8642
 ARG WORKDIR=/home/export
 
 RUN apk add --no-cache \
-      gnupg=2.2.19-r0 \
+      gnupg \
     && rm -f /var/cache/apk/* \
     && adduser -D $USER -u $USERID
 
