@@ -5,6 +5,8 @@ IFS=$'\n\t'
 
 ########
 
+readonly WORKING_DIR="${PWD}"
+
 readonly FOLDERS=(
   $(ls -d */)
 )
@@ -12,10 +14,14 @@ readonly FOLDERS=(
 ########
 
 install_images () {
-  echo "💿   Installing local app images..."
   for FOLDER in ${FOLDERS[@]}; do
-    cd "${PWD}/${FOLDER}"
+    printf '%b\n' "==> 💿  Installing ${FOLDER%/}..."
+    cd "${WORKING_DIR}/${FOLDER}"
     make install
+
+    if [[ $? -eq 0 ]]; then
+      printf '%b\n' "==> ✅  ${FOLDER%/} installed!"
+    fi
   done
 }
 
