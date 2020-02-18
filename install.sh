@@ -15,12 +15,12 @@ readonly FOLDERS=(
 
 install_images () {
   for FOLDER in ${FOLDERS[@]}; do
-    printf '%b\n' "==> 💿  Installing ${FOLDER%/}..."
+    printf '\e[33m%s\e[0m\n' "==> 💿  Installing ${FOLDER%/}..."
     cd "${WORKING_DIR}/${FOLDER}"
     make install
 
     if [[ $? -eq 0 ]]; then
-      printf '%b\n' "==> ✅  ${FOLDER%/} installed!"
+      printf '\e[32m%s\e[0m\n' "==> ✅  Installed ${FOLDER%/}!"
     fi
   done
 }
