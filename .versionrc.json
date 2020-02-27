@@ -8,5 +8,17 @@
     {"type": "docs", "section": "Documentation"},
     {"type": "chore", "section": "Chores"},
     {"type": "style", "hidden": true}
-  ]
+  ],
+
+  "commitUrlFormat": "https://github.com/dperuo/dockerfiles/commit/{{hash}}",
+
+  "compareUrlFormat": "https://github.com/dperuo/dockerfiles/compare/{{previousTag}}...{{currentTag}}",
+
+  "issueUrlFormat": "https://github.com/dperuo/dockerfiles/issues/{{id}}",
+
+  "userUrlFormat": "https://github.com/dperuo",
+
+  "releaseCommitMessageFormat": "chore: 🤖 (release) {{currentTag}}",
+
+  "issuePrefixes": []
 }
