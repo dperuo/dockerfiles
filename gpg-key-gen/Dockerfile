@@ -1,7 +1,7 @@
 FROM alpine:3.11 AS build
 
 LABEL maintainer "Derek Peruo <derek@derekperuo.net>"
-LABEL version 20.02
+LABEL version 20.04
 
 ARG USER=gpgkeygen
 ARG USERID=8642
