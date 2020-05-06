@@ -1,4 +1,4 @@
-FROM alpine:latest AS build
+FROM alpine:3.11 AS build
 
 LABEL maintainer "Derek Peruo <derek@derekperuo.net>"
 LABEL version 20.02

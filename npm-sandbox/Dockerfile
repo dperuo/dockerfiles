@@ -1,4 +1,4 @@
-FROM node:lts-alpine AS build
+FROM node:12.16-alpine3.11 AS build
 
 LABEL maintainer "Derek Peruo <derek@derekperuo.net>"
 LABEL version 20.02
@@ -18,4 +18,3 @@ USER $USER
 WORKDIR $WORKDIR
 
 ENTRYPOINT ["/bin/ash"]
-
