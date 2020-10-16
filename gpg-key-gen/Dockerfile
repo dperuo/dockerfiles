@@ -1,11 +1,11 @@
-FROM alpine:3.11 AS build
+FROM alpine:3.12 AS build
 
 LABEL maintainer "Derek Peruo <derek@derekperuo.net>"
-LABEL version 20.04
+LABEL version 20.10
 
 ARG USER=gpgkeygen
 ARG USERID=8642
-ARG WORKDIR=/home/export
+ARG WORKDIR=/home/$USER
 
 RUN apk add --no-cache \
       gnupg \
@@ -17,4 +17,3 @@ USER $USER
 WORKDIR $WORKDIR
 
 ENTRYPOINT ["/bin/ash"]
-
