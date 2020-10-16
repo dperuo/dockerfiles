@@ -22,7 +22,7 @@ docker pull dperuo/gpg-key-gen
 With a mounted volume to export keys to another machine:
 
 ```sh
-docker run -it --rm -v ${PWD}:/home/export dperuo/gpg-key-gen
+docker run -it --rm -v ${PWD}:/home/gpgkeygen dperuo/gpg-key-gen
 ```
 
 Or without a mounted volume:
