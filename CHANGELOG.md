@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.1](https://github.com/dperuo/dockerfiles/compare/v3.0.0...v3.0.1) (2021-05-28)
+
+
+### Refactor
+
+* 💡 (nmap) Specify nmap version 8e5de9f
+
+
+### Documentation
+
+* ✏️ (readme) Update mounting instructions a8c26f7
+
+
+### Chores
+
+* 🤖 () Upgrade to Alpine v[3](https://github.com/dperuo/dockerfiles/issues/3).[13](https://github.com/dperuo/dockerfiles/issues/13) 2d39b59, closes v3
+* 🤖 () Upgrade to Alpine v[3](https://github.com/dperuo/dockerfiles/issues/3).[13](https://github.com/dperuo/dockerfiles/issues/13) 91f6961, closes v3
+* 🤖 Update Alpine image and gnupg version f6818f7
+
 ## [3.0.0](https://github.com/dperuo/dockerfiles/compare/v2.0.1...v3.0.0) (2020-05-06)
 
 
