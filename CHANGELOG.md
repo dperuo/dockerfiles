@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](https://github.com/dperuo/dockerfiles/compare/v3.0.1...v3.1.0) (2022-03-19)
+
+
+### Features
+
+* (*) Upgrade to Alpine [3](https://github.com/dperuo/dockerfiles/issues/3).[15](https://github.com/dperuo/dockerfiles/issues/15) abf5875
+
 ### [3.0.1](https://github.com/dperuo/dockerfiles/compare/v3.0.0...v3.0.1) (2021-05-28)
 
 
