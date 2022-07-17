@@ -33,7 +33,7 @@ docker run -it --rm dperuo/gpg-key-gen
 
 ## Screenshot
 
-![](https://p66.f3.n0.cdn.getcloudapp.com/items/E0uqW5pW/screenshot-gpg-key-gen.png)
+![](https://p497.p4.n0.cdn.getcloudapp.com/items/YEukzdpW/d4d3a86a-dd19-4b10-a808-7013ae201577.png)
 
 ## Author
 
